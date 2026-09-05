@@ -1,0 +1,1610 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1536"
+     height="1024"
+     viewBox="0 0 1536 1024">
+
+  <defs>
+
+    <!-- ================================================= -->
+    <!-- EFFECTS                                           -->
+    <!-- ================================================= -->
+
+    <filter id="glow"
+            x="-30%"
+            y="-30%"
+            width="160%"
+            height="160%">
+
+      <feGaussianBlur stdDeviation="2"
+                      result="blur"/>
+
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+
+    <!-- ================================================= -->
+    <!-- ICONS                                             -->
+    <!-- ================================================= -->
+
+    <!-- Shield -->
+
+    <symbol id="shield" viewBox="0 0 64 64">
+
+      <path d="M32 5
+               L54 13
+               V29
+               C54 43 45 53 32 59
+               C19 53 10 43 10 29
+               V13 Z"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+      <path d="M21 31
+               L29 39
+               L44 22"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+
+    </symbol>
+
+
+    <!-- Network -->
+
+    <symbol id="network" viewBox="0 0 64 64">
+
+      <circle cx="32" cy="12" r="7"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="3"/>
+
+      <circle cx="12" cy="49" r="7"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="3"/>
+
+      <circle cx="52" cy="49" r="7"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="3"/>
+
+      <path d="M28 18
+               L16 43
+               M36 18
+               L48 43
+               M19 49
+               H45"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+    </symbol>
+
+
+    <!-- Code -->
+
+    <symbol id="code" viewBox="0 0 64 64">
+
+      <path d="M24 18
+               L10 32
+               L24 46"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+
+      <path d="M40 18
+               L54 32
+               L40 46"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+
+      <path d="M35 12
+               L29 52"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+    </symbol>
+
+
+    <!-- Terminal -->
+
+    <symbol id="terminal" viewBox="0 0 64 64">
+
+      <rect x="7"
+            y="10"
+            width="50"
+            height="44"
+            rx="4"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+      <path d="M18 25
+               L27 32
+               L18 39"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+
+      <path d="M32 40
+               H45"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+    </symbol>
+
+
+    <!-- Globe -->
+
+    <symbol id="globe" viewBox="0 0 64 64">
+
+      <circle cx="32"
+              cy="32"
+              r="25"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="3"/>
+
+      <ellipse cx="32"
+               cy="32"
+               rx="11"
+               ry="25"
+               fill="none"
+               stroke="#39ff14"
+               stroke-width="2"/>
+
+      <path d="M7 32
+               H57
+               M12 20
+               H52
+               M12 44
+               H52"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    </symbol>
+
+
+    <!-- System -->
+
+    <symbol id="system" viewBox="0 0 64 64">
+
+      <path d="M32 8
+               C22 8 17 18 18 28
+               C12 31 12 42 19 46
+               C24 50 29 48 32 46
+               C35 48 40 50 45 46
+               C52 42 52 31 46 28
+               C47 18 42 8 32 8 Z"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+      <circle cx="25"
+              cy="27"
+              r="2"
+              fill="#39ff14"/>
+
+      <circle cx="39"
+              cy="27"
+              r="2"
+              fill="#39ff14"/>
+
+      <path d="M25 38
+               C29 41 35 41 39 38"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    </symbol>
+
+
+    <!-- Certificate -->
+
+    <symbol id="certificate" viewBox="0 0 64 64">
+
+      <circle cx="32"
+              cy="25"
+              r="18"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="3"/>
+
+      <path d="M32 13
+               L36 21
+               L45 22
+               L38 28
+               L40 37
+               L32 33
+               L24 37
+               L26 28
+               L19 22
+               L28 21 Z"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+      <path d="M23 40
+               L20 57
+               L32 50
+               L44 57
+               L41 40"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+    </symbol>
+
+
+    <!-- Telegram -->
+
+    <symbol id="telegram" viewBox="0 0 64 64">
+
+      <path d="M7 30
+               L56 8
+               L45 55
+               L31 39
+               L22 48
+               L23 35 Z"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"
+            stroke-linejoin="round"/>
+
+      <path d="M7 30
+               L31 39
+               L56 8"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    </symbol>
+
+
+    <!-- Email -->
+
+    <symbol id="email" viewBox="0 0 64 64">
+
+      <rect x="7"
+            y="13"
+            width="50"
+            height="38"
+            rx="3"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+      <path d="M9 17
+               L32 36
+               L55 17"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+    </symbol>
+
+
+    <!-- Folder -->
+
+    <symbol id="folder" viewBox="0 0 64 64">
+
+      <path d="M7 18
+               H25
+               L31 24
+               H57
+               V51
+               H7 Z"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="3"/>
+
+    </symbol>
+
+
+    <!-- Target -->
+
+    <symbol id="target" viewBox="0 0 64 64">
+
+      <circle cx="32"
+              cy="32"
+              r="23"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="2"/>
+
+      <circle cx="32"
+              cy="32"
+              r="14"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="2"/>
+
+      <circle cx="32"
+              cy="32"
+              r="5"
+              fill="none"
+              stroke="#39ff14"
+              stroke-width="3"/>
+
+      <path d="M32 2
+               V14
+               M32 50
+               V62
+               M2 32
+               H14
+               M50 32
+               H62"
+            fill="none"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    </symbol>
+
+
+    <!-- ================================================= -->
+    <!-- TEXT STYLES                                       -->
+    <!-- ================================================= -->
+
+    <style>
+
+      .bg {
+        fill:#020502;
+      }
+
+      .panel {
+        fill:#030703;
+        stroke:#39ff14;
+        stroke-width:1.2;
+      }
+
+      .inner {
+        fill:#010301;
+        stroke:#168c16;
+        stroke-width:1;
+      }
+
+      .line {
+        stroke:#168c16;
+        stroke-width:1;
+      }
+
+      .dash {
+        stroke:#168c16;
+        stroke-width:1;
+        stroke-dasharray:6 5;
+      }
+
+      .green {
+        fill:#39ff14;
+        font-family:monospace;
+      }
+
+      .muted {
+        fill:#b7ffb0;
+        font-family:monospace;
+      }
+
+      .dim {
+        fill:#69c96b;
+        font-family:monospace;
+      }
+
+      .title {
+        fill:#39ff14;
+        font-family:monospace;
+        font-size:20px;
+        font-weight:700;
+      }
+
+      .body {
+        fill:#39ff14;
+        font-family:monospace;
+        font-size:15px;
+      }
+
+      .small {
+        fill:#39ff14;
+        font-family:monospace;
+        font-size:13px;
+      }
+
+      .terminalText {
+        fill:#39ff14;
+        font-family:monospace;
+        font-size:14px;
+      }
+
+      .big {
+        fill:#39ff14;
+        font-family:monospace;
+        font-size:52px;
+        font-weight:700;
+        letter-spacing:2px;
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND                                        -->
+  <!-- ================================================= -->
+
+  <rect x="0"
+        y="0"
+        width="1536"
+        height="1024"
+        class="bg"/>
+
+
+  <!-- ================================================= -->
+  <!-- HEADER                                            -->
+  <!-- ================================================= -->
+
+  <rect x="14"
+        y="10"
+        width="1508"
+        height="160"
+        rx="7"
+        class="panel"/>
+
+  <text x="50"
+        y="76"
+        class="big"
+        filter="url(#glow)">
+    MOHAMMAD NADERI
+  </text>
+
+  <text x="50"
+        y="108"
+        class="muted body">
+    COMPUTER ENGINEERING STUDENT  |  CYBER SECURITY  |  NETWORKING  |  LINUX
+  </text>
+
+  <text x="50"
+        y="141"
+        class="body">
+    root@mohammad:~$ whoami █
+  </text>
+
+
+  <!-- Header status -->
+
+  <rect x="1060"
+        y="24"
+        width="444"
+        height="134"
+        rx="7"
+        class="inner"/>
+
+  <use href="#system"
+       x="1084"
+       y="39"
+       width="28"
+       height="28"/>
+
+  <text x="1140"
+        y="55"
+        class="body">
+    OS      : Arch Linux
+  </text>
+
+  <use href="#terminal"
+       x="1084"
+       y="68"
+       width="28"
+       height="28"/>
+
+  <text x="1140"
+        y="85"
+        class="body">
+    SHELL   : Bash
+  </text>
+
+  <use href="#code"
+       x="1084"
+       y="98"
+       width="28"
+       height="28"/>
+
+  <text x="1140"
+        y="115"
+        class="body">
+    MODE    : Learning
+  </text>
+
+  <use href="#shield"
+       x="1084"
+       y="128"
+       width="28"
+       height="28"/>
+
+  <text x="1140"
+        y="145"
+        class="body">
+    STATUS  : ONLINE
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- IDENTITY                                          -->
+  <!-- ================================================= -->
+
+  <rect x="14"
+        y="180"
+        width="484"
+        height="384"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="38"
+          cy="199"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="57"
+          cy="199"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="76"
+          cy="199"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="120"
+        y="204"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="24"
+        y1="214"
+        x2="488"
+        y2="214"
+        class="line"/>
+
+  <text x="32"
+        y="240"
+        class="terminalText">
+    root@mohammad:~$ ./identity
+  </text>
+
+  <text x="32"
+        y="272"
+        class="title">
+    [01] IDENTITY
+  </text>
+
+
+  <!-- Identity network graphic -->
+
+  <rect x="32"
+        y="296"
+        width="174"
+        height="152"
+        class="inner"/>
+
+  <g filter="url(#glow)">
+
+    <path d="
+      M58 354
+      L91 327
+      M91 327
+      L139 327
+      M139 327
+      L172 354
+      M58 354
+      L91 407
+      M91 407
+      L139 407
+      M139 407
+      L172 354
+      M91 327
+      L91 407
+      M139 327
+      L139 407"
+      fill="none"
+      stroke="#168c16"
+      stroke-width="2"/>
+
+    <circle cx="58"
+            cy="354"
+            r="7"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="91"
+            cy="327"
+            r="7"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="139"
+            cy="327"
+            r="7"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="172"
+            cy="354"
+            r="7"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="91"
+            cy="407"
+            r="7"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="139"
+            cy="407"
+            r="7"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="115"
+            cy="367"
+            r="18"
+            fill="#020502"
+            stroke="#39ff14"
+            stroke-width="2"/>
+
+    <circle cx="115"
+            cy="367"
+            r="6"
+            fill="#39ff14"/>
+
+  </g>
+
+  <text x="45"
+        y="435"
+        class="small">
+    &gt;_ CYBER NODE
+  </text>
+
+
+  <!-- Identity information -->
+
+  <text x="232"
+        y="315"
+        class="body">
+    NAME   : Mohammad Naderi
+  </text>
+
+  <text x="232"
+        y="342"
+        class="body">
+    ROLE   : Computer Engineering
+  </text>
+
+  <text x="232"
+        y="362"
+        class="body">
+             Student
+  </text>
+
+  <text x="232"
+        y="389"
+        class="body">
+    FOCUS  : Cyber Security &amp;
+  </text>
+
+  <text x="232"
+        y="409"
+        class="body">
+             Networking
+  </text>
+
+  <text x="232"
+        y="436"
+        class="body">
+    SYSTEM : Arch Linux
+  </text>
+
+  <text x="232"
+        y="463"
+        class="body">
+    SHELL  : Bash
+  </text>
+
+  <text x="232"
+        y="490"
+        class="body">
+    MODE   : Learning
+  </text>
+
+  <text x="232"
+        y="517"
+        class="body">
+    STATUS : ONLINE
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- SECURITY ARSENAL                                  -->
+  <!-- ================================================= -->
+
+  <rect x="508"
+        y="180"
+        width="514"
+        height="384"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="532"
+          cy="199"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="551"
+          cy="199"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="570"
+          cy="199"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="614"
+        y="204"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="518"
+        y1="214"
+        x2="1012"
+        y2="214"
+        class="line"/>
+
+  <text x="526"
+        y="240"
+        class="terminalText">
+    root@mohammad:~$ cat arsenal.txt
+  </text>
+
+  <text x="526"
+        y="272"
+        class="title">
+    [02] SECURITY ARSENAL
+  </text>
+
+  <line x1="765"
+        y1="290"
+        x2="765"
+        y2="546"
+        class="line"/>
+
+
+  <!-- Cyber Security -->
+
+  <use href="#shield"
+       x="524"
+       y="292"
+       width="24"
+       height="24"/>
+
+  <text x="556"
+        y="310"
+        class="body">
+    CYBER SECURITY
+  </text>
+
+  <text x="548"
+        y="333"
+        class="small">
+    • OWASP
+  </text>
+
+  <text x="548"
+        y="353"
+        class="small">
+    • Security Fundamentals
+  </text>
+
+  <text x="548"
+        y="373"
+        class="small">
+    • Network &amp; Protocol
+  </text>
+
+  <text x="548"
+        y="391"
+        class="small">
+      Fundamentals
+  </text>
+
+  <text x="548"
+        y="412"
+        class="small">
+    • Web Security Fundamentals
+  </text>
+
+
+  <!-- Development -->
+
+  <use href="#code"
+       x="522"
+       y="426"
+       width="28"
+       height="28"/>
+
+  <text x="556"
+        y="448"
+        class="body">
+    DEVELOPMENT
+  </text>
+
+  <text x="548"
+        y="472"
+        class="small">
+    • Python
+  </text>
+
+  <text x="548"
+        y="492"
+        class="small">
+    • C++
+  </text>
+
+  <text x="548"
+        y="512"
+        class="small">
+    • Django
+  </text>
+
+  <text x="548"
+        y="532"
+        class="small">
+    • HTML / CSS / JavaScript
+  </text>
+
+
+  <!-- Networking -->
+
+  <use href="#network"
+       x="786"
+       y="292"
+       width="27"
+       height="27"/>
+
+  <text x="822"
+        y="310"
+        class="body">
+    NETWORKING
+  </text>
+
+  <text x="812"
+        y="333"
+        class="small">
+    • Network+ Knowledge
+  </text>
+
+  <text x="812"
+        y="353"
+        class="small">
+    • TCP/IP
+  </text>
+
+  <text x="812"
+        y="373"
+        class="small">
+    • Network Analysis
+  </text>
+
+  <text x="812"
+        y="393"
+        class="small">
+    • Wireshark
+  </text>
+
+
+  <!-- System & Tools -->
+
+  <use href="#terminal"
+       x="786"
+       y="414"
+       width="27"
+       height="27"/>
+
+  <text x="822"
+        y="432"
+        class="body">
+    SYSTEM &amp; TOOLS
+  </text>
+
+  <text x="812"
+        y="455"
+        class="small">
+    • Linux
+  </text>
+
+  <text x="812"
+        y="475"
+        class="small">
+    • Arch Linux
+  </text>
+
+  <text x="812"
+        y="495"
+        class="small">
+    • Bash
+  </text>
+
+  <text x="812"
+        y="515"
+        class="small">
+    • Docker
+  </text>
+
+  <text x="812"
+        y="535"
+        class="small">
+    • Git / GitHub
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- CERTIFICATIONS                                    -->
+  <!-- ================================================= -->
+
+  <rect x="1032"
+        y="180"
+        width="490"
+        height="384"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="1056"
+          cy="199"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="1075"
+          cy="199"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="1094"
+          cy="199"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="1138"
+        y="204"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="1042"
+        y1="214"
+        x2="1512"
+        y2="214"
+        class="line"/>
+
+  <text x="1050"
+        y="240"
+        class="terminalText">
+    root@mohammad:~$ ls certifications/
+  </text>
+
+  <text x="1050"
+        y="272"
+        class="title">
+    [03] CERTIFICATIONS
+  </text>
+
+
+  <!-- Certificate 1 -->
+
+  <use href="#certificate"
+       x="1050"
+       y="300"
+       width="52"
+       height="62"
+       filter="url(#glow)"/>
+
+  <text x="1112"
+        y="318"
+        class="body">
+    [01] OWASP Zero X
+  </text>
+
+  <text x="1132"
+        y="342"
+        class="body">
+    CERTIFICATE
+  </text>
+
+  <text x="1112"
+        y="366"
+        class="dim small">
+    └─ Certificate
+  </text>
+
+
+  <!-- Certificate 2 -->
+
+  <use href="#certificate"
+       x="1050"
+       y="392"
+       width="52"
+       height="62"
+       filter="url(#glow)"/>
+
+  <text x="1112"
+        y="410"
+        class="body">
+    [02] Network &amp; Protocols Fundamentals
+  </text>
+
+  <text x="1132"
+        y="434"
+        class="body">
+    in Cyber Security
+  </text>
+
+  <text x="1132"
+        y="458"
+        class="body">
+    CERTIFICATE
+  </text>
+
+  <text x="1112"
+        y="482"
+        class="dim small">
+    └─ Certificate
+  </text>
+
+  <line x1="1050"
+        y1="510"
+        x2="1504"
+        y2="510"
+        class="dash"/>
+
+  <text x="1050"
+        y="535"
+        class="small">
+    Network+ : Knowledge / Skill
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- CYBER LAB                                         -->
+  <!-- ================================================= -->
+
+  <rect x="14"
+        y="574"
+        width="370"
+        height="368"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="38"
+          cy="593"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="57"
+          cy="593"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="76"
+          cy="593"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="120"
+        y="598"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="24"
+        y1="608"
+        x2="374"
+        y2="608"
+        class="line"/>
+
+  <text x="32"
+        y="634"
+        class="terminalText">
+    root@mohammad:~$ cd /cyber-lab
+  </text>
+
+  <text x="32"
+        y="666"
+        class="title">
+    [04] CYBER LAB
+  </text>
+
+
+  <!-- Network lab -->
+
+  <use href="#globe"
+       x="32"
+       y="683"
+       width="36"
+       height="36"/>
+
+  <text x="80"
+        y="704"
+        class="body">
+    NETWORK LAB
+  </text>
+
+  <text x="80"
+        y="726"
+        class="small">
+    • Wireshark
+  </text>
+
+  <text x="80"
+        y="746"
+        class="small">
+    • TCP/IP
+  </text>
+
+  <text x="80"
+        y="766"
+        class="small">
+    • Network Traffic Analysis
+  </text>
+
+
+  <!-- Web lab -->
+
+  <use href="#code"
+       x="32"
+       y="777"
+       width="36"
+       height="36"/>
+
+  <text x="80"
+        y="798"
+        class="body">
+    WEB LAB
+  </text>
+
+  <text x="80"
+        y="820"
+        class="small">
+    • Django
+  </text>
+
+  <text x="80"
+        y="840"
+        class="small">
+    • HTML / CSS / JavaScript
+  </text>
+
+  <text x="80"
+        y="860"
+        class="small">
+    • Web Security Learning
+  </text>
+
+
+  <!-- Linux lab -->
+
+  <use href="#system"
+       x="32"
+       y="875"
+       width="36"
+       height="36"/>
+
+  <text x="80"
+        y="892"
+        class="body">
+    LINUX LAB
+  </text>
+
+  <text x="80"
+        y="914"
+        class="small">
+    • Arch Linux  • Bash  • Linux Environment
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- PROJECTS                                          -->
+  <!-- ================================================= -->
+
+  <rect x="394"
+        y="574"
+        width="370"
+        height="368"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="418"
+          cy="593"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="437"
+          cy="593"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="456"
+          cy="593"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="500"
+        y="598"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="404"
+        y1="608"
+        x2="754"
+        y2="608"
+        class="line"/>
+
+  <text x="412"
+        y="634"
+        class="terminalText">
+    root@mohammad:~$ ls -la /projects
+  </text>
+
+  <text x="412"
+        y="666"
+        class="title">
+    [05] PROJECTS
+  </text>
+
+
+  <rect x="426"
+        y="690"
+        width="306"
+        height="116"
+        rx="9"
+        class="inner"
+        stroke-dasharray="7 5"/>
+
+  <use href="#folder"
+       x="448"
+       y="704"
+       width="32"
+       height="32"/>
+
+  <text x="512"
+        y="716"
+        class="small">
+    PROJECT DATABASE
+  </text>
+
+  <line x1="444"
+        y1="730"
+        x2="714"
+        y2="730"
+        class="line"/>
+
+  <text x="444"
+        y="754"
+        class="small">
+    PUBLIC PROJECTS : 0
+  </text>
+
+  <text x="444"
+        y="777"
+        class="small">
+    STATUS          : INITIALIZING
+  </text>
+
+
+  <text x="412"
+        y="838"
+        class="body">
+    [!] No public projects yet.
+  </text>
+
+  <text x="412"
+        y="864"
+        class="small">
+    Cyber Security and Networking
+  </text>
+
+  <text x="412"
+        y="884"
+        class="small">
+    projects will be added as they are
+  </text>
+
+  <text x="412"
+        y="904"
+        class="small">
+    completed.
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- ROADMAP                                           -->
+  <!-- ================================================= -->
+
+  <rect x="774"
+        y="574"
+        width="370"
+        height="368"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="798"
+          cy="593"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="817"
+          cy="593"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="836"
+          cy="593"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="880"
+        y="598"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="784"
+        y1="608"
+        x2="1134"
+        y2="608"
+        class="line"/>
+
+  <text x="792"
+        y="634"
+        class="terminalText">
+    root@mohammad:~$ cat roadmap.txt
+  </text>
+
+  <text x="792"
+        y="666"
+        class="title">
+    [06] LEARNING ROADMAP
+  </text>
+
+  <text x="792"
+        y="700"
+        class="small">
+    [01] Cisco CCNA
+  </text>
+
+  <text x="792"
+        y="722"
+        class="small">
+    [02] Network Security
+  </text>
+
+  <text x="792"
+        y="744"
+        class="small">
+    [03] Web Security
+  </text>
+
+  <text x="792"
+        y="766"
+        class="small">
+    [04] Penetration Testing
+  </text>
+
+  <text x="792"
+        y="788"
+        class="small">
+    [05] Defensive Security
+  </text>
+
+  <text x="792"
+        y="810"
+        class="small">
+    [06] Active Directory
+  </text>
+
+  <text x="792"
+        y="832"
+        class="small">
+    [07] Cryptography
+  </text>
+
+  <text x="792"
+        y="854"
+        class="small">
+    [08] Cloud Security
+  </text>
+
+  <text x="792"
+        y="876"
+        class="small">
+    [09] Blockchain / Web3 Security
+  </text>
+
+  <use href="#target"
+       x="790"
+       y="887"
+       width="42"
+       height="42"/>
+
+  <text x="842"
+        y="914"
+        class="small">
+    ONE STEP AT A TIME.
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- CONTACT                                           -->
+  <!-- ================================================= -->
+
+  <rect x="1154"
+        y="574"
+        width="368"
+        height="368"
+        rx="6"
+        class="panel"/>
+
+  <circle cx="1178"
+          cy="593"
+          r="6"
+          fill="#ff3030"/>
+
+  <circle cx="1197"
+          cy="593"
+          r="6"
+          fill="#ffd21f"/>
+
+  <circle cx="1216"
+          cy="593"
+          r="6"
+          fill="#39d353"/>
+
+  <text x="1260"
+        y="598"
+        class="terminalText">
+    MOHAMMAD@CYBER-TERMINAL
+  </text>
+
+  <line x1="1164"
+        y1="608"
+        x2="1512"
+        y2="608"
+        class="line"/>
+
+  <text x="1172"
+        y="634"
+        class="terminalText">
+    root@mohammad:~$ cat connect.txt
+  </text>
+
+  <text x="1172"
+        y="666"
+        class="title">
+    [07] CONTACT
+  </text>
+
+
+  <!-- Telegram -->
+
+  <use href="#telegram"
+       x="1170"
+       y="688"
+       width="40"
+       height="40"/>
+
+  <text x="1220"
+        y="714"
+        class="body">
+    TELEGRAM
+  </text>
+
+  <text x="1220"
+        y="740"
+        class="body">
+    @whosMohammad
+  </text>
+
+
+  <!-- Email -->
+
+  <use href="#email"
+       x="1170"
+       y="770"
+       width="40"
+       height="40"/>
+
+  <text x="1220"
+        y="790"
+        class="body">
+    EMAIL
+  </text>
+
+  <text x="1170"
+        y="826"
+        class="small">
+    mohammadlnaderi@proton.me
+  </text>
+
+
+  <line x1="1172"
+        y1="850"
+        x2="1504"
+        y2="850"
+        class="dash"/>
+
+  <text x="1172"
+        y="878"
+        class="small">
+    STATUS  : AVAILABLE
+  </text>
+
+  <text x="1172"
+        y="902"
+        class="small">
+    CONTACT : OPEN
+  </text>
+
+
+  <!-- ================================================= -->
+  <!-- FOOTER                                            -->
+  <!-- ================================================= -->
+
+  <rect x="14"
+        y="952"
+        width="1508"
+        height="58"
+        rx="6"
+        class="panel"/>
+
+  <text x="34"
+        y="978"
+        class="small">
+    root@mohammad:~$
+  </text>
+
+  <text x="34"
+        y="1000"
+        class="body">
+    Thank you for visiting my profile! █
+  </text>
+
+  <use href="#terminal"
+       x="1458"
+       y="966"
+       width="38"
+       height="38"/>
+
+</svg>
